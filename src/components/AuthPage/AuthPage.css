@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://marketplace.canva.com/EAFCytpuJ08/1/0/1600w/canva-green-wateroclor-leaf-linktree-background-0Mp0WYk6_8E.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .auth-container {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(170, 124, 124);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .wrapper
+  {
+    width: 420px;
+    background: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .toggle-btn {
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .toggle-btn:hover {
+    text-decoration: underline;
+  }
+  
+  img{
+    height: 150px;
+    width: 150px;
+    border-radius: 200px;
+  }
+  
+  p{
+    text-align: center;
+  }
